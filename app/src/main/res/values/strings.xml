@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Задачи</string>
+
+    <string name="main_title">Задачи</string>
+
+    <string name="task_1">Настроить окружения и основы Android/Kotlin</string>
+    <string name="task_2">Создать интерефейс главного экрана: список задач</string>
+    <string name="task_3">Выполнить архитектуру MVVM</string>
+    <string name="task_4">Добавить задачи и редактировать их</string>
+    <string name="task_5">Защитить проект</string>
+</resources>
