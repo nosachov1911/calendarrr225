@@ -39,9 +39,9 @@ class TaskAdapter(
         holder.date.text = task.date
 
         if (task.isDone) {
-            holder.status.text = "✓ Выполнено"
+            holder.status.text = "Выполнено"
         } else {
-            holder.status.text = "○ Не выполнено"
+            holder.status.text = "Не выполнено"
         }
 
         holder.itemView.setOnClickListener {

@@ -30,10 +30,11 @@ class TaskDetailActivity : AppCompatActivity() {
         detailDescription.text = description
 
         if (completed) {
-            detailStatus.text = "✓ Выполнено"
+            detailStatus.text = "Выполнено"
             completeButton.text = "Задача выполнена"
         } else {
-            detailStatus.text = "○ Не выполнено"
+            detailStatus.text = "Не выполнено"
+            completeButton.text = "Задача не выполнена"
         }
 
         backButton.setOnClickListener {

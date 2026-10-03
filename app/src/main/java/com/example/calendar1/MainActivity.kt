@@ -37,39 +37,39 @@ class MainActivity : AppCompatActivity() {
 
                 val oldTasks = listOf(
                     Task(
-                        title = "Подготовить отчёт",
-                        description = "Закончить практическую работу",
+                        title = "Написать курсовую",
+                        description = "Завершить теоретическую часть",
                         isDone = false,
-                        date = "25.09.2026",
-                        time = "18:00"
+                        date = "05.10.2026",
+                        time = "14:00"
                     ),
                     Task(
-                        title = "Изучить RecyclerView",
-                        description = "Разобраться с созданием списка задач",
+                        title = "Прочитать главу",
+                        description = "Изучить материал по теме",
                         isDone = false,
-                        date = "26.09.2026",
-                        time = "18:00"
+                        date = "02.10.2026",
+                        time = "20:00"
                     ),
                     Task(
-                        title = "Сделать домашнее задание",
-                        description = "Выполнить задания по Android Studio",
+                        title = "Сделать лабораторную",
+                        description = "Выполнить работу №3",
                         isDone = false,
-                        date = "27.09.2026",
-                        time = "18:00"
+                        date = "03.10.2026",
+                        time = "16:30"
                     ),
                     Task(
-                        title = "Подготовить презентацию",
-                        description = "Подготовить материалы для защиты",
+                        title = "Подготовить доклад",
+                        description = "Собрать информацию для выступления",
                         isDone = false,
-                        date = "28.09.2026",
-                        time = "18:00"
+                        date = "06.10.2026",
+                        time = "11:00"
                     ),
                     Task(
-                        title = "Повторить материал",
-                        description = "Повторить основные понятия",
+                        title = "Повторить конспект",
+                        description = "Просмотреть записи лекций",
                         isDone = false,
-                        date = "29.09.2026",
-                        time = "18:00"
+                        date = "07.10.2026",
+                        time = "19:00"
                     )
                 )
 
@@ -181,7 +181,7 @@ class MainActivity : AppCompatActivity() {
                 description = description,
                 isDone = false,
                 date = date,
-                time = "12:00"
+                time = "15:00"
             )
 
             lifecycleScope.launch {
